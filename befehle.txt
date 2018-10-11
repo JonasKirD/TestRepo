@@ -23,4 +23,4 @@ git stash				alles auf temporären Zwischenspeicher, später wieder abholen, aber 
 					+ alles auf letzten Commit gesetzt
 git stash pop				alles vom temporären Zwischenspiecher abholen
 git clone <Link> <OrdnerNameAufPC>	packt Rep vom Link in Ordner (wird ggf. neu angelegt)
-	
+git push				hochladen
