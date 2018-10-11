@@ -1,0 +1,24 @@
+pwd : aktueller Ordner
+cd.. : Ordner höher
+cd<pfad> :zum angegebenen Pfad navigieren
+
+
+
+git init 				repository erstellen
+git add <Dateiname>			datei wird selektiert/vorbereitet für commit
+git commit <Dateiname> -m "Nachricht" 	commit mit nachricht
+git reset --hard HEAD 			setzt alles bis zum letzten Commit zurück, HEAD ist aktueller Stand
+git log 				zeigt alle Commits der aktuellen Entwicklungslinie
+git log --all				zeigt ALLE Commits
+git log --all --graph			zeigt ALLE Commits mit Graph
+git log --all --graph --oneline		zeigt ALLE Commits mit vereinfachtem Graph
+git checkout <hash:5>			setzt auf angegebenen Hash zurück
+git checkout -b "BranchName"		neuer Branch(entwicklungsstrang) mit Namen BranchName
+git checkput <Branchname>		zum Branch mit Namen BranchName wechseln
+git rm <Dateiname>			löscht Datei mit Namen Dateiname, nach nächstem Commit weg
+git status				Status des aktuellen Branches
+git merge <BranchName>			merged Branchname zum aktuellen Branch, 
+					fastforward, wenn sich auf atuellem Branch nichts geändert hat
+git stash				alles auf temporären Zwischenspeicher, später wieder abholen, aber Adden!
+					+ alles auf letzten Commit gesetzt
+git stash pop				alles vom temporären Zwischenspiecher abholen
